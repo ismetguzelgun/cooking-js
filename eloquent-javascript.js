@@ -18,3 +18,5 @@ I recommend treating them as mostly interchangeable.*/
 //You should imagine bindings as tentacles, rather than boxes. They do not contain values; they grasp them—two bindings can refer to the same value
 let caught = 5 * 5;
 //caught is the binding
+
+//Executing a function is called invoking, calling, or applying it. 
