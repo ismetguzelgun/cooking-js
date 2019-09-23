@@ -1,1 +1,1 @@
-
+//Strings are unicode
