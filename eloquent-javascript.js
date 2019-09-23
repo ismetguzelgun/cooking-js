@@ -20,3 +20,7 @@ let caught = 5 * 5;
 //caught is the binding
 
 //Executing a function is called invoking, calling, or applying it. 
+
+/*Each local scope can also see all the local scopes that
+contain it, and all scopes can see the global scope. This approach to binding
+visibility is called lexical scoping.*/
