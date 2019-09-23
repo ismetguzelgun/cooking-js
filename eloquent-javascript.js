@@ -13,4 +13,4 @@ it isn’t equal to the result of any other nonsensical computations.*/
 and it doesn’t matter most of the time. In cases where you actually have to concern yourself with these values, 
 I recommend treating them as mostly interchangeable.*/
 
-
+//When you do not want any automatic type conversions to happen, there are two additional operators: === and !==
