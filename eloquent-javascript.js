@@ -14,3 +14,7 @@ and it doesn’t matter most of the time. In cases where you actually have to co
 I recommend treating them as mostly interchangeable.*/
 
 //When you do not want any automatic type conversions to happen, there are two additional operators: === and !==
+
+//You should imagine bindings as tentacles, rather than boxes. They do not contain values; they grasp them—two bindings can refer to the same value
+let caught = 5 * 5;
+//caught is the binding
