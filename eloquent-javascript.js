@@ -24,3 +24,15 @@ let caught = 5 * 5;
 /*Each local scope can also see all the local scopes that
 contain it, and all scopes can see the global scope. This approach to binding
 visibility is called lexical scoping.*/
+
+//Optimal arguments can cause problems. If you had two arguments which one of them does not be used, function behaves that argument
+//as it has a value undefined'
+
+function minus(a, b) {
+if (b === undefined) return -a;
+else return a - b;
+}
+console.log(minus(10));
+// → -10
+console.log(minus(10, 5));
+// → 5
