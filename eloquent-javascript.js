@@ -36,3 +36,20 @@ console.log(minus(10));
 // → -10
 console.log(minus(10, 5));
 // → 5
+
+//closure arrow func
+//https://codeburst.io/javascript-understand-arrow-function-syntax-ab4081bba85b
+const double = (num) => {
+  return num * 2;
+}
+// Is the same as
+const double = num => num * 2;
+
+//closure
+function multiplier(factor) {
+return number => number * factor;
+}
+let twice = multiplier(2);
+console.log(twice(5));
+// → 10
+
