@@ -17,7 +17,7 @@ function multiplier(factor) {
     let q=multiplier(7);
 
 
-//--------------------------------------------------------------------
+//-------------originalformclosure-------------------------------------------------------
 
 
 function multiplier(factor) {
@@ -41,7 +41,7 @@ function multiplier(factor) {
 
 
 
-    //onsole.log(third(3));
+    //console.log(third(3));
 
     //twice=7;
     
