@@ -53,3 +53,9 @@ let twice = multiplier(2);
 console.log(twice(5));
 // → 10
 
+/*
+These are expressions that access a property of some value. In the first case, we access the length property of the value in myString. In the second, we access the property named max in the Math object (which is a collection of mathematics-related constants and functions).
+
+Almost all JavaScript values have properties. The exceptions are null and undefined. If you try to access a property on one of these nonvalues, you get an error.
+
+*/
