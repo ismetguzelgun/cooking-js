@@ -42,7 +42,7 @@ function foo() {
 
 
 
-        //asdasdasdasd
+        
     // "function"
     // "number"
     // "string"

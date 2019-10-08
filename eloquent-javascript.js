@@ -100,3 +100,10 @@ console.log("right" in anObject);
 
 /*Arrays, then, are just a kind of object specialized for storing sequences of things. If you evaluate typeof [], it produces "object". 
 You can see them as long, flat octopuses with all their tentacles in a neat row, labeled with numbers.*/
+
+/**
+ * Higher-order functions
+
+Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+ * 
+ */
