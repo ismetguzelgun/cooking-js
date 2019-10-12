@@ -107,3 +107,9 @@ You can see them as long, flat octopuses with all their tentacles in a neat row,
 Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
  * 
  */
+
+
+/*Usually a method needs to do something with the object it was called on. 
+When a function is called as a method—looked up as a property and immediately called, 
+as in object.method()—the binding called this in its body automatically points at the 
+object that it was called on.*/
