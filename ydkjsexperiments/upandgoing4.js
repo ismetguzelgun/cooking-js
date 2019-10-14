@@ -1,4 +1,4 @@
-
+//HOW THIS KEYWORD WORKS
 
 function foo() {//"use strict";
     console.log( this.bar );
