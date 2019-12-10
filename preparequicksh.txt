@@ -1,0 +1,3 @@
+code runme.sh
+chmod +x runme.sh
+sudo ./runme.sh
