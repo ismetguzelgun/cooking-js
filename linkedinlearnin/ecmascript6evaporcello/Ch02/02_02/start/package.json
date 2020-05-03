@@ -1,0 +1,22 @@
+{
+  "name": "testing-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build":"./node_modules/.bin/webpack"
+  },
+  "keywords": [
+    "webpack",
+    "npm",
+    "es6"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  }
+}
