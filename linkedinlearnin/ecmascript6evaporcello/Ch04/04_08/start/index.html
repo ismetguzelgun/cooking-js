@@ -3,7 +3,29 @@
 <head>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
 	<script type="text/babel">
+var title="ES6";
+console.log(typeof title[Symbol.iterator]);
 
+var itareIt= title[Symbol.iterator]();
+
+console.log(itareIt.next());
+console.log(itareIt.next());
+console.log(itareIt.next());
+console.log(itareIt.next());
+console.log(itareIt.next());
+console.log(itareIt.next());
+
+function tableReady(arr){
+	var nextIndex=0;
+	return{
+		next(){
+			if(nextIndex<arr.length){
+				return {value: arr.shift(),done:false}
+			}
+			else return {done:true}
+		}
+	}
+}
 
 	</script>
 	<title>Iterators</title>
